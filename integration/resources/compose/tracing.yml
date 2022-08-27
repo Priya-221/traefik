@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   zipkin:
-    image: openzipkin/zipkin:2.16.2
+    image: openzipkin/zipkin:latest
     environment:
       STORAGE_TYPE: mem
       JAVA_OPTS: -Dlogging.level.zipkin=DEBUG
